@@ -55,3 +55,53 @@ export const Text = styled.h1`
   gap: 1rem;
   align-items: center;
 `;
+
+export const AdminWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+`;
+
+export const AdminTableDiv = styled.div`
+  display: flex;
+  gap: 3rem;
+`;
+
+export const AdminTextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+`;
+
+export const AdminListDiv = styled.div`
+  display: flex;
+  padding: 1rem;
+  background-color: skyblue;
+`;
+
+export const Table = styled.div`
+  display: flex;
+  gap: 1rem;
+  border: 1px solid gray;
+  padding: 0.5rem;
+`;
+
+export const ID = styled.p`
+  display: flex;
+  width: 7rem;
+`;
+
+export const Name = styled.p`
+  display: flex;
+  width: 15rem;
+`;
+
+export const Gwonhan = styled.p`
+  display: flex;
+  width: 15rem;
+`;
+
+export const TableWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
